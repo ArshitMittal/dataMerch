@@ -1,0 +1,17 @@
+{
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "printWidth": 180,
+        "singleQuote": true,
+        "proseWrap": "preserve",
+        "endOfLine": "auto",
+        "tabWidth": 4,
+        "useTabs": false,
+        "trailingComma": "none",
+        "bracketSpacing": true
+      }
+    }
+  ]
+}

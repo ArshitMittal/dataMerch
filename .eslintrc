@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "plugin:jsdoc/recommended",
+    "airbnb-base",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "rules": {
+    "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
+    "prettier/prettier": "error",
+    "max-len": [
+      "error",
+      {
+        "code": 180
+      }
+    ],
+    "camelcase": "off",
+    "linebreak-style": "off",
+    "jsdoc/require-jsdoc": [
+      "warn",
+      {
+        "enableFixer": false,
+        "require": {
+          "ArrowFunctionExpression": true,
+          "ClassExpression": true,
+          "FunctionDeclaration": true,
+          "FunctionExpression": true,
+          "MethodDefinition": true
+        }
+      }
+    ]
+  }
+}
