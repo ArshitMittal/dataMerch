@@ -5,8 +5,8 @@ let config = {
 };
 
 module.exports = {
-  set: (input) => {
-    config = Object.assign(config, input);
+ set: (input) => {
+   config = Object.assign(config, input);
   },
   get: () => {
     return config;
